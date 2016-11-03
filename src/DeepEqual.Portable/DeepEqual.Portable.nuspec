@@ -7,10 +7,13 @@
     <authors>James Foster</authors>
     <owners>jamesfoster</owners>
     <projectUrl>http://github.com/jamesfoster/DeepEqual</projectUrl>
-		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An extensible deep comparison library for .NET</description>
     <copyright>Copyright 2013</copyright>
     <tags>deepequal deep equal equality comparison compare</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\DeepEqual.Portable.dll" target="lib\netstandard1.5\DeepEqual.Portable.dll" />
+  </files>
 </package>

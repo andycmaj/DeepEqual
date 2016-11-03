@@ -9,7 +9,7 @@
 		public TActual Actual { get; set; }
 		public TExpected Expected { get; set; }
 
-		internal IComparisonBuilder<ComparisonBuilder> Builder { get; set; }
+		public IComparisonBuilder<ComparisonBuilder> Builder { get; set; }
 
 		public CompareSyntax(TActual actual, TExpected expected)
 		{
